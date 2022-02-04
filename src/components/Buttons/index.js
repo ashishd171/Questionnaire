@@ -14,4 +14,5 @@ const Buttons = ({submitClick , previousClick, submit}) => {
     );
 }
 
+
 export default Buttons;

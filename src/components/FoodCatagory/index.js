@@ -6,8 +6,6 @@ import { Wrapper } from './style';
 const FoodCatagory = (props) => {
 
     const [FoodItem ,setFoodItem] = useState();
-    // console.log(FoodItem,'foodcatagory',9)
-
     const handleChange = (senditem) => {
         setFoodItem(senditem)
         props.inputvalue(senditem);
@@ -37,5 +35,4 @@ const FoodCatagory = (props) => {
 
     );
 }
-
 export default FoodCatagory;
